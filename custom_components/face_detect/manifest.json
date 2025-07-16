@@ -1,8 +1,8 @@
 {
-  "domain": "face_detect",
-  "name": "face_detect",
-  "documentation": "https://github.com/chenwingsing/ha_face_detect",
-  "issue_tracker": "https://github.com/chenwingsing/ha_face_detect/issues",
+  "domain": "baidu_face_detect",
+  "name": "baidu_face_detect",
+  "documentation": "https://github.com/meiym/ha_face_detect",
+  "issue_tracker": "https://github.com/meiym/ha_face_detect/issues",
   "requirements": ["baidu-aip==2.2.18.0"],
   "codeowners": ["@MrChanGG"],
   "dependencies": [],
