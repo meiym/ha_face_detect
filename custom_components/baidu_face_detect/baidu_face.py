@@ -12,7 +12,7 @@ import homeassistant.helpers.config_validation as cv
 
 _LOGGER = logging.getLogger(__name__)
 
-DOMAIN = "baidu_face_switch"
+DOMAIN = "baidu_face_detect"
 
 CONF_PATH = "path"
 CONF_APP_ID = "app_id"
@@ -21,8 +21,8 @@ CONF_SECRET_KEY = "secret_key"
 CONF_GROUP_ID = "group_id"
 CONF_QUALITY = "quality_threshold"
 
-DEFAULT_NAME = "Baidu Face Switch"
-DEFAULT_QUALITY = 0.5
+DEFAULT_NAME = "Baidu Face Detect"
+DEFAULT_QUALITY = 0.8
 
 PLATFORM_SCHEMA = PLATFORM_SCHEMA.extend(
     {
